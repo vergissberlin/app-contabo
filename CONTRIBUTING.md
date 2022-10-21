@@ -104,6 +104,73 @@ Der `LogsScreenFooter` zeigt den Status des Servers an. Der Status des Servers i
 
 Die Funktion `getServers` holt sich die Liste aller Server von der Schnittstelle. Die Funktion `getServers` gibt die Liste der Server zurück.
 
+**Anfrage:**
+
+```shell
+curl --location --request GET 'https://api.contabo.com/v1/compute/instances' \
+--header 'Content-Type: application/json' \
+--header 'x-request-id: 93d47a62-1892-47ea-9133-726f36c0d2cf' \
+--header 'x-trace-id: 123123123' \
+--header 'Authorization: Bearer exampleforverylongstring'
+```
+
+**Antwort:**
+
+```json
+{
+    "data": [
+        {
+            "tenantId": "DE",
+            "customerId": "1234",
+            "additionalIps": [],
+            "name": "vmd2312",
+            "displayName": "",
+            "instanceId": 10002312,
+            "region": "EU",
+            "productId": "V1",
+            "imageId": null,
+            "ipConfig": {
+                "v4": {
+                    "ip": "1.2.3.4",
+                    "gateway": "1.2.0.0",
+                    "netmaskCidr": 24
+                },
+                "v6": {
+                    "ip": "1a02:c205:2000:3312:0000:0000:0000:0001",
+                    "gateway": "ee80::1",
+                    "netmaskCidr": 64
+                }
+            },
+            "macAddress": "20:00:52:3c:0b:17",
+            "ramMb": 8192,
+            "cpuCores": 4,
+            "osType": "Linux",
+            "diskMb": 204800,
+            "createdDate": "2012-12-01T11:00:00.000Z",
+            "cancelDate": null,
+            "status": "running",
+            "vHostId": 3825,
+            "addOns": [],
+            "productType": "ssd",
+            "defaultUser": "admin"
+        }
+    ],
+    "_links": {
+        "first": "/v1/compute/instances?size=10",
+        "previous": "",
+        "next": "",
+        "last": "/v1/compute/instances?page=1&size=10",
+        "self": "/v1/compute/instances"
+    },
+    "_pagination": {
+        "size": 10,
+        "totalElements": 1,
+        "totalPages": 1,
+        "page": 1
+    }
+}
+```
+
 ### getServerAudits
 
 Die Funktion `getServerAudits` holt sich die Liste aller Server Audits von der Schnittstelle. Die Funktion `getServerAudits` gibt die Liste der Server Audits zurück.
