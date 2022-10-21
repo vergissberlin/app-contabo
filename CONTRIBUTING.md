@@ -7,7 +7,11 @@ Contabo bietet unter https://api.contabo.com/ eine Schnittstelle an. Folgende En
 | Endpunkt | Beschreibung |
 | --- | --- |
 | /v1/compute/instances | Liste aller Instant Server |
+| /v1/compute/instances/{instanceId} | Details eines Instant Servers |
 | /v1/compute/instances/audits | Liste aller Instant Server Audits |
+| /v1/compute/instances/{instanceId}/actions/start | Startet einen Instant Server |
+| /v1/compute/instances/{instanceId}/actions/shutdown | Stoppt einen Instant Server |
+| /v1/compute/instances/{instanceId}/actions/restart | Startet einen Instant Server neu |
 
 ## Authentifizierung
 
@@ -125,5 +129,3 @@ Der `ServerDetails` zeigt die Details eines Servers an. Die Details werden aus d
 ### `ServerLogs`
 
 Der `ServerLogs` zeigt die Logs eines Servers an. Die Logs werden aus der Datenbank geladen. Die Logs werden nach dem Datum des Logs sortiert. Die Logs werden nach dem Status des Logs gefiltert.
-
-

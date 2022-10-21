@@ -18,13 +18,7 @@ Die App ist im Play Store und App Store verfügbar. Die App ist kostenlos und oh
 
 ## Screenshots
 
-![Screenshot 1](https://raw.githubusercontent.com/derEchteJan/contabo-app/master/screenshots/1.png)
-
-![Screenshot 2](https://raw.githubusercontent.com/derEchteJan/contabo-app/master/screenshots/2.png)
-
-![Screenshot 3](https://raw.githubusercontent.com/derEchteJan/contabo-app/master/screenshots/3.png)
-
-![Screenshot 4](https://raw.githubusercontent.com/derEchteJan/contabo-app/master/screenshots/4.png)
+- *TBD*
 
 ## Lizenz
 
@@ -38,4 +32,6 @@ Bei Fragen oder Problemen könnt ihr mich gerne kontaktieren. Ich bin über folg
 
 ## Contributing
 
+Pull requests sind willkommen. Für größere Änderungen, erstellt bitte zuerst ein Issue, damit wir uns darüber unterhalten können.
 
+Um Dir einen Überblick über die Struktur der App zu verschaffen, empfehle ich Dir [CONTRIBUTING.md](CONTRIBUTING.md) zu lesen.
