@@ -1,8 +1,8 @@
 # My Contabo App
 
-Contabo ist ein Hoster aus Deutschland. Unter https://my.contabo.com bieten sie ihren Kunden ein Webinterface an, bei der die Kunden ihre Server verwalten können. Dieses Webinterface ist leider nicht sehr benutzerfreundlich und bietet auch nicht viele Funktionen. Deshalb habe ich mich entschieden, ein eigenes Interface zu schreiben, welches die Funktionen von Contabo erweitert und vereinfacht. Die App ist  mit React Native geschrieben und läuft auf Android und iOS.
+Contabo ist ein Hoster aus Deutschland. Unter https://my.contabo.com bieten sie ihren Kunden ein Webinterface an, bei der die Kunden ihre Server imd weiteren Dienste verwalten können. Ich mich entschieden, eine App zu schreiben, welche die wichtigsten Funktionen von Contabo bereitstellt und und damit die Zugänglichkeit vereinfacht. Die App ist mit React Native auf Expo geschrieben und läuft auf Android, iOS sowie als Web-App.
 
-Ich bin kein Mitarbeiter von Contabo. Ich bin Kunde und     habe die App für mich geschrieben, um jederzeit über den Status meiner Server informiert zu sein.
+Ich bin kein Mitarbeiter von Contabo. Ich bin Kunde und habe die App für mich geschrieben, um jederzeit über den Status meiner Server informiert zu sein.
 
 ## Features
 
